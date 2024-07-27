@@ -11,6 +11,6 @@ SELECT
     COLUMN_KEY AS 'Key',
     EXTRA AS 'Extra',
     COLUMN_COMMENT AS 'Comment'
-FROM information_schema.columns
-WHERE TABLE_SCHEMA = 'alx_book_store' AND TABLE_NAME = 'books'
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_SCHEMA = 'alx_book_store' AND TABLE_NAME = 'Books'
 ORDER BY ORDINAL_POSITION;
